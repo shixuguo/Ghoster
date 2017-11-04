@@ -8,6 +8,8 @@ SetBatchLines,-1
 SetWindelay,0
 
 applicationname=Ghoster
+; MsgBox, %A_ScriptDir%\icon.png
+
 
 OnExit,EXIT
 
@@ -193,6 +195,7 @@ Menu,Tray,Add,&About...,ABOUT
 Menu,Tray,Add,&Restart,RESTART
 Menu,Tray,Add,E&xit,EXIT
 Menu,Tray,Default,%applicationname%
+Menu, Tray, Icon, %A_ScriptDir%\icon.ico,,1
 Return
 
 
